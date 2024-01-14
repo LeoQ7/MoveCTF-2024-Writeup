@@ -2,7 +2,7 @@
 
 LLL
 
-```rust
+```move
 module solve::m {
     use sui::tx_context::{Self, TxContext};
     use subset::subset_sum::{Self, Status};

@@ -1,6 +1,6 @@
 # EasyGame
 
-```rust
+```move
 module solve::m {
     use sui::tx_context::{Self, TxContext};
     use std::vector;

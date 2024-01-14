@@ -1,6 +1,6 @@
 # Kitchen
 
-```rust
+```move
 module solve::m {
     use sui::tx_context::{Self, TxContext};
     use kitchen::kitchen::{Self, Status, Olive_oil, Yeast, Flour, Salt, get_Olive_oil, get_Yeast, get_Flour, get_Salt};

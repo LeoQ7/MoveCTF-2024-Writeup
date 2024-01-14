@@ -2,7 +2,7 @@
 
 Exploit incorrect AMM formula
 
-```rust
+```move
 module solve::m {
     use sui::tx_context::{Self, TxContext};
     use swap::vault::{Self, Vault};
