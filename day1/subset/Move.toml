@@ -1,0 +1,10 @@
+[package]
+name = "subset"
+version = "0.0.1"
+published-at = "0x0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+subset = "0x0"
